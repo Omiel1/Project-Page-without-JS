@@ -1,0 +1,285 @@
+#title{
+    color: rgb(167, 108, 4);
+    text-align: center;
+    padding: 10px;
+}
+
+#title:hover{
+    color: black;
+}
+
+#sub-title{
+    color: rgb(167, 108, 4);
+    text-align: center;
+}
+
+#title-to-subtitle-div{
+    background: url("Pictures/honeycomb.png");
+    width: 80%;
+    height: 32px;
+    background-size: 12px 12px;
+    margin-left: 10%;
+}
+
+body{
+    background: linear-gradient(to bottom, rgba(2, 27, 27, 0.95), rgba(3, 22, 22, 0.85) 85%, rgba(29, 54, 54, 0.90) 99%);
+    color: white;
+    /* min-width: 1600px; */
+}
+
+.Advantage{
+    color: rgba(63, 187, 63, 0.8);
+}
+
+.Disadvantage{
+    color: rgba(195, 59, 59, 0.8);
+}
+
+.catalog-container-item{  
+    padding: 2px;
+    margin: 0px 5px;
+    color: white;
+    border: 2px solid rgb(32, 32, 32);
+    background: linear-gradient(to bottom, rgb(44, 44, 44), rgb(75, 74, 74))
+}
+
+.bee-info-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 0px 20px;
+    border:1px solid rgba(2, 27, 27, 0.90);
+}
+.bee-info-container-item{
+    text-align: justify;
+    /* background: red; */
+}
+
+.bee-info-container-catalog-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 20px;
+    width:8vw;
+    /* border: 2px solid rgb(3, 88, 3); */
+}
+
+.bee-info-container-catalog-container-item{
+    border:1px solid rgba(2, 27, 27, 0.90);
+    background: rgba(2, 27, 27, 0.50);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+    transition: background 0.4s ease;
+}
+.bee-info-container-catalog-container-item:hover{
+    background: rgba(2, 27, 27, 1);
+    transform: scale(1.15);
+}
+
+.bee-info-container-item3-container{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    /* background:green; */
+}
+
+.bee-info-container-item3-container-item{
+    width:100%;
+    margin: 0px 15px;
+    text-align: center;
+    border:1px solid rgba(2, 27, 27, 0.90);
+    background: rgba(2, 27, 27, 0.50);
+}
+
+#bees-family-grid-container{
+    display:grid;
+    height: 1000px;
+    margin: 0px 10px;
+
+    grid-template-columns: 10% 20% 50% 20%;
+    grid-template-rows:8% 23% 23% 23% 23%;
+    justify-content:space-between;
+    align-content:flex-start;
+    font-family: 'Poppins', serif;
+}
+
+.bees-family-grid-container-item{
+    background: rgba(172, 82, 19, 0.5);
+    border: 1px solid pink;
+    width:100%;
+}
+
+#bees-family-grid-container-title{
+    color: rgb(209, 135, 5);
+    margin-left: 12px;
+    font-family: 'Poppins', serif;
+    background: rgba(172, 82, 19, 0.5);
+}
+
+#bees-family-grid-container-side-bar{
+    border:1px solid rgba(2, 27, 27, 0.90);
+    background: rgba(2, 27, 27, 0.50);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#bees-family-grid-container-side-bar:hover{
+    background: rgba(2, 27, 27, 0.80);
+}
+
+#bees-family-grid-container-general-info-grid{
+    display:grid;
+
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 12% 22% 22% 22% 22%;
+    justify-content: flex-start;
+}
+
+.bees-family-grid-container-general-info{
+    text-align: center;
+    font-family:'Poppins', serif;
+
+    border:1px solid rgba(2, 27, 27, 0.90);
+    background: rgba(2, 27, 27, 0.30);
+}
+
+.bees-family-grid-container-general-info-grid-item{
+    border:1px solid rgba(2, 27, 27, 0.40);
+    text-align: left;
+}
+
+.bees-family-grid-container-text-grid{
+    display: grid;
+    text-justify: distribute;
+    grid-template-rows: auto 203px;
+}
+
+.bees-family-grid-container-text-grid-item{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    border:1px solid rgba(2, 27, 27, 0.40);
+    font-size: 1rem;
+    font-stretch: condensed;
+    text-align: center;
+}
+
+.bees-family-grid-container-text-grid-item-box{
+    border:1px solid rgba(2, 27, 27, 0.40);
+    width: 100%;
+    height: auto;
+    max-height: 203px;
+    font-size: 100%;
+}
+
+.bees-family-grid-container-picture-grid{
+    display:grid;
+
+    grid-template-rows: auto 203px;
+    text-align: center;
+    
+}
+
+.bees-family-grid-container-picture-grid-img{
+    object-fit:scale-down;
+    width: auto;
+    height: 203px;
+    background: rgba(2, 27, 27, 0.20);
+}
+
+.subtitle{
+    color: rgb(209, 135, 5);
+    margin-left: 12px;
+    font-family: fantasy, serif;
+}
+
+.para-text{
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    padding: 3px 20px;
+}
+
+#Title{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    line-height: 20px;
+    text-align:center;
+}
+
+#bee-honey-image{
+    margin: 1vw 10vw 0vw 10vw;
+    float: right;
+    height: 20vw;
+    border: 2px solid black;
+}
+
+.text-break{
+    margin-bottom: 10px;
+}
+
+.other-info-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 20vw;
+    height:200px;
+    padding: 10px 0px 20px 20px;
+    text-align: center;
+}
+
+.other-info-container-item{
+    margin: 5px 50px 3px 5px;
+    align-self:flex-start;
+    background:rgb(39, 38, 38);
+    border: 1px solid rgb(19, 18, 18);
+    color: grey;
+}
+
+#submit-button{
+    margin: 5px 5px 3px 5px;
+    padding: 5px 10px;
+    align-self:flex-start;
+    background:rgb(39, 38, 38);
+    border: 1px solid rgb(19, 18, 18);
+    font-family:'Poppins', Impact, serif;
+    font-size:16px;
+    color: grey;
+    height: auto;
+
+    transform: rotate(0deg);
+    transition: background 0.5s ease 0.1s,
+    color 0.8s ease,
+    padding 0.5s ease; /*property to change , time to change, change style, delay of animation*/
+}
+
+#submit-button:hover{
+    background: rgb(31, 30, 30);
+    padding: 10px 15px;
+    color:blanchedalmond;
+}
+
+/* Animations */
+#insert-ad-here{
+    height:45vw;
+    min-height: 45vw;
+    width:64px;
+    margin:auto;
+    animation-name: Bees-Bussin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes Bees-Bussin{
+    0% {background-image: url('Pictures/Bee-anim-1.png');}
+    33% {background-image: url('Pictures/Bee-anim-2.png');}
+    66% {background-image: url('Pictures/Bee-anim-3.png');}
+    100% {background-image: url('Pictures/Bee-anim-1.png');}
+}
